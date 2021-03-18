@@ -10,62 +10,82 @@
 
     <title>Tamana Ed Resources</title>
   </head>
+
   <body>
-    <h1>Tamana's Special Educational Resources</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Tamana</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tamana Nai Disha </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tamana School of Hope </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tamana Special School </a>
+        </li>
+<!--
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">School of Hope</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+-->
+      </ul>
 
-<!-- Optional JavaScript; choose one of the two! -->
-<div class="container">
-<!-- Row 1 -->
-  <div class="row">
-    <div class="col">
-	<iframe height="280" width="500"  
-	src="https://www.youtube.com/embed/HhRj0Eziqyo"> 
-	</iframe>    
-	</div>
-    <div class="col">
-	<iframe height="280" width="500"  
-	src="https://www.youtube.com/embed/HUnkzr7b3PA"> 
-	</iframe>    
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
   </div>
+</nav>
 
-<!-- Row 2 -->
-  <div class="row">
-    <div class="col">
-	<iframe height="280" width="500"  
-	src="https://www.youtube.com/embed/2ZCb9R8mGqQ"> 
-	</iframe>    
-    </div>
-    <div class="col">
- 	<iframe height="280" width="500"  
-	src="https://www.youtube.com/embed/zxQlaSHKJac"> 
-	</iframe>    
-   </div>
-  </div>
+<!--Lead para-->
+<h1 class="display-3">Time Concept</h1>
+<p class="lead">
+  This is a lead paragraph. It stands out from regular paragraphs.
+</p>
 
-<!-- Row 3 -->
-  <div class="row">
-    <div class="col">
-	<iframe height="280" width="500"  
-	src="https://www.youtube.com/embed/zxQlaSHKJac"> 
-	</iframe>    
-    </div>
-    <div class="col">
- 	<iframe height="280" width="500"  
-	src="https://www.youtube.com/embed/zxQlaSHKJac"> 
-	</iframe>    
-   </div>
-  </div>
+<dl class="row">
+  <dt class="col-sm-3">Description lists</dt>
+  <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
 
-</div>	
+  <dt class="col-sm-3">Term</dt>
+  <dd class="col-sm-9">
+    <p>Definition for the term.</p>
+    <p>And some more placeholder definition text.</p>
+  </dd>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <dt class="col-sm-3">Another term</dt>
+  <dd class="col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
-  </body>
+  <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+  <dd class="col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+
+  <dt class="col-sm-3">Nesting</dt>
+  <dd class="col-sm-9">
+    <dl class="row">
+      <dt class="col-sm-4">Nested definition list</dt>
+      <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list inside your definition list.</dd>
+    </dl>
+  </dd>
+</dl>  </body>
 </html>

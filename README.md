@@ -1,1 +1,1 @@
-# tamana-educational-resources
+# special-educational-resources
